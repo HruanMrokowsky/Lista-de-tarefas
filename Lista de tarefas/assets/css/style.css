@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Stint+Ultra+Condensed&display=swap');
+
+/*font-family: 'Big Shoulders Stencil Display', cursive;
+font-family: 'Stint Ultra Condensed', cursive*/
+
+:root{
+    --primary-color: rgb(43, 44, 44);
+    --primary-color-dark: rgb(12, 64, 71);;
+}
+
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family:'Stint Ultra Condensed', cursive;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.container{
+    max-width: 640px;
+    margin: 10px auto;
+    background: rgb(3, 187, 243);
+    padding: 20px;
+    border-radius: 2%;
+}
+
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.lista-de-tarefas{
+    width: 18rem;
+    height: 2rem;
+}
+
+.adc-tarefa{
+    color: #fff;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: rgb(2, 2, 2);
+    border-radius: 5px;
+}
+
+.lista-tarefa{
+list-style: none;
+}
